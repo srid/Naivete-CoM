@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <style>
         body {
-            background: linear-gradient(135deg, #eff6ff 0%, #e0e7ff 100%);
+            background: #fefce8;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -40,11 +40,19 @@
             margin-bottom: 2rem;
             line-height: 1.2;
             text-align: center;
+            position: sticky;
+            top: 0;
+            background: linear-gradient(135deg, #eef2ff 0%, #ddd6fe 100%);
+            margin: -2rem -2rem 2rem -2rem;
+            padding: 1.5rem 2rem;
+            z-index: 10;
         }
         
         @media (min-width: 768px) {
             h1 {
                 font-size: 3rem;
+                margin: -3rem -3rem 2rem -3rem;
+                padding: 2rem 3rem;
             }
         }
         
@@ -147,7 +155,7 @@
     <div class="container">
         <main>
             <h1>
-                <span class="title-highlight">Naiveté Compass of Mood</span>
+                <span class="title-highlight">Naiveté</span> Compass of Mood
             </h1>
             
             <section>
